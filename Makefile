@@ -1,11 +1,11 @@
-test:
+go-test:
 	go test
 
-verbose:
-	go test -v
+compile:
+	go test -c -o test
 
-race:
-	go test -race -v
+binary:
+	./test -test.v
 
 build:
 	docker build -t chainlink-sdet-project:latest .
