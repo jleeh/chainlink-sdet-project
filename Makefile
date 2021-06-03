@@ -1,5 +1,5 @@
 go-test:
-	go test
+	go test -v
 
 compile:
 	go test -c -o test
